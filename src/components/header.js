@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const data = [
     {title: 'Книги', path: '/'},
     {title: 'Персонажи', path: '/characters'},
-
+    {title: 'Дома', path: '/houses'}
 ]
 
 const Nav = ({data}) => {

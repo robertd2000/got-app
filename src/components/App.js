@@ -4,6 +4,7 @@ import {Books} from './Books';
 import { Characters } from './characters';
 import { CharInput } from './charInput';
 import {Header} from './header';
+import { Houses } from './houses';
 
 const AppJS = () => {
 
@@ -21,6 +22,7 @@ const AppJS = () => {
         <hr/>
         <Route path='/' exact component={Books} />
         <Route path='/characters' exact component={char} />
+        <Route path='/houses' exact component={Houses} />
       </Router>
       
     </div>

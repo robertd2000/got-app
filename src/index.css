@@ -20,9 +20,6 @@ code {
   border-radius: 15px;
 }
 
-.book__item {
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -30,7 +27,7 @@ code {
 
 .nav_link {
   flex-wrap: wrap;
-  width: 50%;
+  width: 30%;
   text-decoration: none;
   color: black;
   margin: 0 auto;
@@ -38,6 +35,6 @@ code {
 }
 
 .input__char {
-  width: 500px;
+  width: 692px;
   height: 30px;
 }

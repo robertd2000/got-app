@@ -8,12 +8,16 @@ export class GotApi {
         return this.fetchApi('books')
     }
 
-    static getCharacters() {
-        return this.fetchApi('characters?page=10&pageSize=10')
+    static getCharacters(i) {
+        return this.fetchApi(`characters?page=${i}&pageSize=10`)
         // return this.fetchApi('characters')
     }
 
     static getCharacter(id) {
         return this.fetchApi(`characters/${id}`)
+    }
+
+    static getHouses(i) {
+        return this.fetchApi(`houses?page=${i}&pageSize=10`)
     }
 }
